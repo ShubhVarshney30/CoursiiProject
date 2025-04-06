@@ -1,8 +1,10 @@
 import React from "react";
+import IMG2 from "./Images/IMG-2.png"
+import IMG from "./Images/IMG.png"
 
 function Style(){
      const teachers=[
-        {photo:"https://plus.unsplash.com/premium_photo-1742318713509-d325930b6749?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D",name:"Ssarah Johnson",designation:"Mathematics Expert",specs:"15+ years of teaching experience in advanced mathematics and statistics"},
+        {photo:IMG2 ,name:"Ssarah Johnson",designation:"Mathematics Expert",specs:"15+ years of teaching experience in advanced mathematics and statistics"},
         {photo:"https://plus.unsplash.com/premium_photo-1742318713509-d325930b6749?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D",name:"David Chen",designation:"Computer Sceince professor",specs:"Phd in Computer Science with expertise in AI and machine learning"},
         {photo:"https://plus.unsplash.com/premium_photo-1742318713509-d325930b6749?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D",name:"Emily White",designation:"English Language Teacher",specs:"MA in English Literature with a focus on literature and creative writing"},
      ]
@@ -75,7 +77,7 @@ innovative hybrid learning approach completely free for-students</h1>
                     <div className="h-13 w-50 bg-blue-700 flex justify-center align-center py-3 my-5 text-white rounded-md">Start Learning Now</div>
                 </div>
                 <div className="h-100 w-180 my-20 mx-10 object-cover overflow-hidden">
-                    <img className="rounded-md" src="" alt="" />
+                    <img className="rounded-md" src="IMG.png" alt="" />
                 </div>
                 </div>
             </div>
@@ -93,7 +95,7 @@ innovative hybrid learning approach completely free for-students</h1>
                 </div>
              </div>
             {/* why choose us */}
-            <div className="bg-zinc-100 h-screen w-full flex flex-col items-center py-20">
+            <div className="bg-gray-100 h-150 w-full flex flex-col items-center py-20">
                 <h1 className="text-5xl font-bold mb-4">Why Choose Us</h1>
                 <p className="text-gray-600 text-xl mb-16">Experience the perfect blend of traditional and modern education methods.</p>
                 
@@ -153,7 +155,7 @@ innovative hybrid learning approach completely free for-students</h1>
                 </div>
             </div>
             {/* how hybrid leanig works */}
-            <div className="bg-zinc-100 h-screen w-full flex min-sm:flex-col items-center py-20">
+            <div className="bg-zinc-100 h-150 w-full flex min-sm:flex-col items-center py-20">
                 <h1 className="text-5xl font-bold mb-4">How Hybrid Learning Works</h1>
                 <p className="text-gray-500 text-xl mb-16">Three Simple steps to start your learning journey</p>
                 <div className="flex  justify-center align-center px-30 gap-10">
